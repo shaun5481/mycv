@@ -15,6 +15,9 @@ import SportsSoccerSharpIcon from '@material-ui/icons/SportsSoccerSharp';
 import MenuBookSharpIcon from '@material-ui/icons/MenuBookSharp';
 import SportsEsportsSharpIcon from '@material-ui/icons/SportsEsportsSharp';
 import MusicNoteSharpIcon from '@material-ui/icons/MusicNoteSharp';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -63,6 +66,11 @@ export default function FullWidthGrid() {
               <Toolbar>
                 <EmailRoundedIcon />
                 <Typography>shaunklekalakala@ gmail.com</Typography>
+              </Toolbar>
+              <Toolbar>
+                <FacebookIcon />
+                <InstagramIcon />
+                <LinkedInIcon />
               </Toolbar>
             </Typography>
             <Divider />
