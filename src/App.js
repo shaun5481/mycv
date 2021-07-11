@@ -26,6 +26,9 @@ export default function FullWidthGrid() {
             <Typography variant="h4" component="h2" gutterBottom>
               Shaun Lekalakala
             </Typography>
+            <Typography variant="h6" component="h4">
+              Software Developer
+            </Typography>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
