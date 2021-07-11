@@ -107,7 +107,8 @@ export default function FullWidthGrid() {
               a knowledge on Data analysis. I regard myself as person who is
               fascinated by challenges and work hard towards solving the task
               ahead of me, am also like new challenges that evolves with time as
-              they turn to teach technics.
+              they turn to teach technics. Me being part of the progrom it will
+              help to improve the skills, and learn more on this program.
             </p>
           </Paper>
         </Grid>
