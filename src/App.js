@@ -110,6 +110,10 @@ export default function FullWidthGrid() {
               they turn to teach technics. Me being part of the progrom it will
               help to improve the skills, and learn more on this program.
             </p>
+            <Divider />
+            <Typography variant="h6" component="h2">
+              Work Exprience
+            </Typography>
           </Paper>
         </Grid>
       </Grid>
