@@ -18,6 +18,7 @@ import MusicNoteSharpIcon from '@material-ui/icons/MusicNoteSharp';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import WorkIcon from '@material-ui/icons/Work';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -120,6 +121,9 @@ export default function FullWidthGrid() {
             </p>
             <Divider />
             <Typography variant="h6" component="h2">
+              <Toolbar>
+                <WorkIcon/>
+                </Toolbar>
               Work Exprience
             </Typography>
           </Paper>
