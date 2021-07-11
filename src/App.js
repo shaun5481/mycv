@@ -102,6 +102,13 @@ export default function FullWidthGrid() {
             <Typography variant="h6" component="h2">
               Profile
             </Typography>
+            <p>
+              I am a recent graduate in Information Technology, in which i have
+              a knowledge on Data analysis. I regard myself as person who is
+              fascinated by challenges and work hard towards solving the task
+              ahead of me, am also like new challenges that evolves with time as
+              they turn to teach technics.
+            </p>
           </Paper>
         </Grid>
       </Grid>
