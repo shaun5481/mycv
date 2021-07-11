@@ -97,7 +97,7 @@ export default function FullWidthGrid() {
             </Toolbar>
           </Paper>
         </Grid>
-        <Grid item xs={8} sm={3}>
+        <Grid item xs={6} sm={3}>
           <Paper>
             <Typography variant="h6" component="h2">
               Profile
