@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -10,8 +11,7 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
-    background: theme.palette.success.light
+    color: theme.palette.text.primary
   }
 }));
 
@@ -22,7 +22,9 @@ export default function FullWidthGrid() {
     <div className={classes.root}>
       <Grid container spacing={1}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>Shaun Lekalakala</Paper>
+          <Paper className={classes.paper}>
+            <Typography variant="h1">Shaun Lekalakala</Typography>
+          </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper} />
