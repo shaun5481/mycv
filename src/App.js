@@ -65,7 +65,7 @@ export default function CenteredGrid() {
         <Grid item xs={12}>
           <Divider />
         </Grid>
-        <Grid item xs={12} container>
+        <Grid item xs={12} container spacing={}>
           <Grid item xs={6}>
             <Typography
               variant="body1"
