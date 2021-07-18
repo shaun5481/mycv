@@ -15,6 +15,16 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  Avatar: {
+    marginRight: theme.spacing(3)
+  },
+  typographyStyle: {
+    color: "grey",
+    h6: {
+      fontSize: "4em",
+      fontFamily: "Arial"
+    }
+  }
 }));
 
 export default function CenteredGrid() {
@@ -24,12 +34,20 @@ export default function CenteredGrid() {
     <div className={classes.root}>
       <Grid container spacing={2}>
         <Grid item xs={12} container justify="center" style={{height: '100px'}} alignItems="center">
+          <Avatar className={classes.Avatar}/>
           <Grid item>
-            Shaun
+            <Typography variant="h4"
+             className={classes.typographyStyle}
+            >
+            Shaun Lekalakala
+            </Typography>
+            <Typography
+               variant="h6"
+              className={classes.typographyStyle}
+            >
+               software developer
+              </Typography>
             </Grid>
-              <Grid item>
-              Lekalakala
-              </Grid>
               </Grid>
               <Grid item xs={12}>
                 <Divider/>
