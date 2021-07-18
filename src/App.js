@@ -33,7 +33,9 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
-        <Grid item xs={12} container justify="center" style={{height: '100px'}} alignItems="center">
+        <Grid item xs={12} container justify="center" style={{height: '100px'}} alignItems="center"
+       
+        >
           <Avatar className={classes.Avatar}/>
           <Grid item>
             <Typography variant="h4"
