@@ -20,11 +20,12 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
+    backgroundColor: 'black'
   },
   Avatar: {
     marginRight: theme.spacing(3)
-  },
+  }, 
   typographyStyle: {
     color: 'skyblue'
   },
@@ -39,6 +40,7 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
+      <Paper className={classes.paper}>
         <Grid
           item
           xs={12}
@@ -47,6 +49,7 @@ export default function CenteredGrid() {
           style={{ height: '100px' }}
           alignItems="center"
         >
+          
           <Avatar className={classes.Avatar} />
           <Grid item>
             <Typography variant="h4" className={classes.typographyStyle}>
@@ -56,7 +59,9 @@ export default function CenteredGrid() {
               software developer
             </Typography>
           </Grid>
+         
         </Grid>
+        </Paper>
         <Grid item xs={12}>
           <Divider />
         </Grid>
@@ -127,6 +132,7 @@ export default function CenteredGrid() {
               <SportsEsportsRoundedIcon />
             </div>
           </Grid>
+        
           <Grid item xs={6}>
             <div>
               <Typography
@@ -190,7 +196,7 @@ we will move to do another promotion for another client.
               DAMELIN:
 ONLINE-SHORT COURSE CERTIFICATE IN DATA ANALYSIS</Typography>
             <Typography variant="subtitle2">
-2019 - 201
+2019 - 2019
 
             </Typography>
           </Grid>
