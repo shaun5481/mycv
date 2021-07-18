@@ -39,8 +39,8 @@ export default function CenteredGrid() {
 
   return (
     <div className={classes.root}>
+      
       <Grid container spacing={2}>
-      <Paper className={classes.paper}>
         <Grid
           item
           xs={12}
@@ -58,15 +58,16 @@ export default function CenteredGrid() {
             <Typography className={classes.typographyStyle} variant="h6">
               software developer
             </Typography>
+            
           </Grid>
          
         </Grid>
-        </Paper>
         <Grid item xs={12}>
           <Divider />
         </Grid>
-        <Grid item xs={12} container spacing={}>
+        <Grid item xs={12} container spacing={3}>
           <Grid item xs={6}>
+            
             <Typography
               variant="body1"
               className={classes.typographyStyle}
