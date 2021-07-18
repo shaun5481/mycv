@@ -163,10 +163,35 @@ export default function CenteredGrid() {
               manifesto.
             </Typography>
             <Typography variant="body1">Proventage Media Group(PMG)</Typography>
-            <Typography variant="subtitle2">P
+            <Typography variant="subtitle2">
 2015 - 2015:
 Was doing outdoor promotions for diferent companies. for a certain period, then
 we will move to do another promotion for another client.
+            </Typography>
+            <Grid item>
+              <Divider />
+            </Grid>
+            <Typography
+              variant="body1"
+              className={classes.typographyStyle}
+              gutterButton=""
+            >
+              Education
+            </Typography>
+            <Typography 
+            variant="body1">
+              UNISA:DIPLOMA IN INFORMATION TECHNOLOGY</Typography>
+            <Typography variant="subtitle2">
+2015 - 2015
+
+            </Typography>
+            <Typography 
+            variant="body1">
+              DAMELIN:
+ONLINE-SHORT COURSE CERTIFICATE IN DATA ANALYSIS</Typography>
+            <Typography variant="subtitle2">
+2019 - 201
+
             </Typography>
           </Grid>
         </Grid>
